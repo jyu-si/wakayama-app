@@ -25,23 +25,27 @@
 -- git clone <リポジトリURL>
 -- cd wakayama-app
 
--依存パッケージのインストール
+- 依存パッケージのインストール
 -- npm install
-ローカル開発サーバーの起動
 
 
+- ローカル開発サーバーの起動
 -- npm run dev
-ブラウザでアクセス
+
+
+- ブラウザでアクセス
 
 -- http://localhost:5173
+
+
 デプロイ手順
-ビルド
-
+- ビルド
 -- npm run build
-Firebase Hosting にデプロイ
-
+-Firebase Hosting にデプロイ
 -- firebase deploy
--- ホスティングURL https://wakayama-app-991cb.web.app/
+
+
+ホスティングURL https://wakayama-app-991cb.web.app/
 
 使用技術
 フレームワーク: Vue.js
